@@ -1,18 +1,18 @@
-# Operdaor Y o AND, es V cuando ambos valores son V
+#Operador Y o AND es verdadero cuando ambos valores son verdaderos
 print("Operador Y")
 print(True & True)
 print(True & False)
 print(False & True)
 print(False & False)
 
-# Operdaor O u OR, es V cuando al menos 1 valor es V
-print("Operador O")
+#Operador O u OR es V cuando almenos 1 valor es V
+print("Operador Y")
 print(True | True)
 print(True | False)
 print(False | True)
 print(False | False)
 
-# Negación NOT
-print("Negación, NOT")
+#Negacion NOT
+print("negacion, NOT")
 print(not True)
 print(not False)

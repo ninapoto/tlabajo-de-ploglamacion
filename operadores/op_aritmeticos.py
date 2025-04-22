@@ -1,38 +1,38 @@
-# Definición de variables
+#Definicion de variables
 numero_1 = 5
-numero_2 = 7
+numero_2 = 7 
 numero_3 = 15
 
-nombre = "Erick"
-apellido = "Bailey"
 
-# Operador SUMA
+nombre = "Benjamin"
+apellido = "Baraona"
+
+#Operador suma
 suma = numero_1 + numero_2
 print(suma)
 
-# Concatenacion
+#concanetacion
 nombre_completo = nombre + " " + apellido
 print(nombre_completo)
 
-# Operador RESTA
+#Operador resta
 resta = numero_1 - numero_2
 print(resta)
 
-# Operador MULTIPLICACIÓN
-multiplicacion = numero_1 * numero_2
-print(multiplicacion)
+#Operador multiplicación
+multiplicación = numero_1 * numero_2 
 print(nombre * 3)
-
-# Exponente
-exponente = numero_1 ** numero_2 # 5^7
+#print(numero_1 * numero_2)
+#Exponente
+exponente = numero_1 ** numero_2 #5^7
 print(exponente)
 
-# DIVISIÓN
+#Division
 division = numero_3 / numero_1
-print(division)
+(print(division))
 print(type(division))
 
-# División baja
-division_baja = numero_3 // numero_1
+#division baja
+division_baja = numero_3 // numero_2
 print(division_baja)
 print(type(division_baja))
