@@ -43,9 +43,12 @@ def programa_principal():
                 print("Opción Inválida!")
 
         elif opcion == "2":
+            radio = float(input("ingrese el radio: "))
+            print(f"area de cuadrilatero de radio: {area_circ(ancho,largo)}")
             
             pass
         elif opcion == "3":
+
             pass
         elif opcion == "0":
             print("saliendo del sistema...")
